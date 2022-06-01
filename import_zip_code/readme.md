@@ -3,7 +3,7 @@
 ## 概要
 * 日本郵政で公開している郵便番号のcsvファイルをS3からインポートする
 
-### csvファイル
+## csvファイル
 * AWSのS3バケット配下に配置
 * 取得元
   * https://www.post.japanpost.jp/zipcode/dl/oogaki-zip.html
