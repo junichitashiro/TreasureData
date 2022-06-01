@@ -3,13 +3,12 @@
 ## 概要
 * 日本郵政で公開している郵便番号のcsvファイルをS3からインポートする
 
-### csvファイル取得元
-* https://www.post.japanpost.jp/zipcode/dl/oogaki-zip.html
-* ここでは __全国一括__ のデータを使用
-
-### csvファイル配置場所
-* AWSのS3バケット配下
+### csvファイル
+* AWSのS3バケット配下に配置
+* 取得元
+  * https://www.post.japanpost.jp/zipcode/dl/oogaki-zip.html
+  * __全国一括__ のデータを使用
+  * 取得時はzip形式なので展開してから配置する
 
 ## 補足
-* S3に配置するcsvファイルはzipファイルを展開したもの
-* time列がないのでインポート時に追加している
+* time列がないのでインポート時に追加する
