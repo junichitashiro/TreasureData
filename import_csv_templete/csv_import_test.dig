@@ -21,7 +21,7 @@ _export:
   create_tables: ["${td.dest_table}", "${td.tmp_table}"]
 
 +load:
-  td_load>: csv_import_test.yml
+  td_load>: config/csv_import_test.yml
   database: ${td.dest_db}
   table: ${td.tmp_table}
 
