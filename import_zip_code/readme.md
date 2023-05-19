@@ -20,8 +20,8 @@
 * AWSのS3バケット配下に配置
 * 取得元
   * https://www.post.japanpost.jp/zipcode/dl/oogaki-zip.html
-  * __全国一括__ のデータを使用
-  * 取得時はzip形式なので展開してから __KEN_ALL.CSV__ のファイル名で配置する
+  * **全国一括** のデータを使用
+  * 取得時はzip形式なので展開してから **KEN_ALL.CSV** のファイル名で配置する
 
 ## 補足
 
